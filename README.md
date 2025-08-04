@@ -45,10 +45,9 @@ output:
 `ros2 service call /spawn turtlesim/srv/Spawn "{x: 2.0, y: 2.0, theta: 0.0, name: 'turtle2'}"
 `
 
-## 📚 Official Documentation
+---
 
 Learn more about the turtlesim package from the official ROS 2 documentation:
 
-👉 [Introducing Turtlesim – ROS 2 Documentation](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Turtlesim/Introducing-Turtlesim.html)
-
+👉 [Introducing Turtlesim – ROS 2 Documentation](https://docs.ros.org/en/foxy/Tutorials/Beginner-CLI-Tools/Introducing-Turtlesim/Introducing-Turtlesim.html)
 
