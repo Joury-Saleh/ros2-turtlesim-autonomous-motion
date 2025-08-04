@@ -1,4 +1,4 @@
-# ROS 2 Turtlesim Autonomous Motion
+# ROS 2 Turtlesim Motion
 
 This project demonstrates how to control the `turtlesim` package in ROS 2 using autonomous commands to move the turtle in geometric patterns such as a square or circle.
 
