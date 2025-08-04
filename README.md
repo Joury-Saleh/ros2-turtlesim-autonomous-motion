@@ -12,13 +12,14 @@ This project demonstrates how to control the `turtlesim` package in ROS 2 using 
 - `turtlesim` package
 - Linux or Ubuntu-based system 
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Launch the turtlesim node
 
 ```bash
 ros2 run turtlesim turtlesim_node
 ```
+
 ### 2. Run the teleop key node (for manual control ):
 `ros2 run turtlesim turtle_teleop_key`
 
@@ -31,6 +32,7 @@ output:
 #### Example: Move in a circle:
 `ros2 topic pub /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0}, angular: {z: 2.0}}"
 `
+
 output:
 ![photo](circle.png)
 
@@ -42,4 +44,11 @@ output:
 ### 5. Spawn another turtle:
 `ros2 service call /spawn turtlesim/srv/Spawn "{x: 2.0, y: 2.0, theta: 0.0, name: 'turtle2'}"
 `
+
+## 📚 Official Documentation
+
+Learn more about the turtlesim package from the official ROS 2 documentation:
+
+👉 [Introducing Turtlesim – ROS 2 Documentation](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Turtlesim/Introducing-Turtlesim.html)
+
 
